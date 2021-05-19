@@ -20,7 +20,7 @@ l = []
 #..............FUNCTION...................
 def welcome():
         textarea.delete(1.0,END)
-        textarea.insert(END,"\t\t WELCOME TO SKM STORE\n MM 222 SECTOR-D ALIGANJ, LUCKNOW, UTTAR PRADESH-226024")
+        textarea.insert(END,"\t\t WELCOME TO SKM STORE\n ***CUSTOMER ADDRESS***")
         textarea.insert(END,f"\n---------------------------------------------------------")
         textarea.insert(END,f"\n\nBILL NUMBER    :\t{bill_no.get()}")
         textarea.insert(END,f"\n\nCUSTOMER NAME  :\t{c_name.get()}")
